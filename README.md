@@ -6,6 +6,8 @@ This project was undertaken to assess the profitbality of the UK football bettin
 
 Accumulator betting is the betting format on which you combine single-way bets into one large bet which pays off only if all the component bets also succeed. If one fails, the whole accumualtor fails. This was investigated due to the severe lack of research into this topic area, and so I thought it had potential to provide large profits.
 
+There exists a plethora of exisitng stategies for single-way bets, so my idea was to combine different strategies for single-way bets into making an accumulator. For this, I selected 2 different strategies, which I labelled ST1 and ST2. For these strategies, you can visit the papers by [Lisandro Kauntiz et al.](https://arxiv.org/abs/1710.02824) and [Edward Wheatcroft](https://www.degruyter.com/document/doi/10.1515/jqas-2019-0009/html).
+
 To test this theory, I developed 4 different strategies to use with a range of different accumulator sizes to properly assess the profitability. The different strategies are encompassed in the grid below.
 
 ![image](https://github.com/oranbramble/AccuProf/assets/56357864/0128a84c-6639-45bb-8ab4-874ff4736043)
