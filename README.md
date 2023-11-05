@@ -12,10 +12,10 @@ I developed 4 different strategies to form an accumulator from the bets selected
 
 ![image](https://github.com/oranbramble/AccuProf/assets/56357864/0128a84c-6639-45bb-8ab4-874ff4736043)
 
-• **Confidence** - Uses confidence parameter to order bets by confidence
-• **No Confidence** - Choose randomly without confidence parameter
-• **Priority ST1** - Prioritise Strategy 1 bets
-• **Priority ST2** - Prioritise Strategy 2 bets
+- **Confidence** : Uses confidence parameter to order bets by confidence
+- **No Confidence** : Choose randomly without confidence parameter
+- **Priority ST1** : Prioritise Strategy 1 bets
+- **Priority ST2** : Prioritise Strategy 2 bets
 
 These used a confidence parameter which I derived using a Neural Network, which was trained on previous match odds data and outputted a single float value representing confidence in the selected bet. Ie.e. if ST1 selected a bet, its data would be run through the ST1 confidence neural network and output a confidence value in the bet suggested. These confidence values were essential to then forming an accumulator from these bets. </br>
 
