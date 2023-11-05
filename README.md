@@ -21,7 +21,22 @@ These used a confidence parameter which I derived using a Neural Network, which 
 
 ## Results
 
+</br>
 
 ![betting without kelly](https://github.com/oranbramble/AccuProf/assets/56357864/22d20caa-0ae9-4986-b968-f44ed0dcbcce)
 
+</br>
 
+The above graph demonstrates how profitable this idea turned out to be (NOTE: this is all in a simulated environemnt, i.e. run on past game data. But, theres no reason it couldn't be implemented quite easily in real life!). Using just £10 stakes on each accumulator, we see betting on low size accumulators seems to provide optimal returns, althugh if you get lucky, a higher size accumulator can also be very profitable. For consistent profit however, accumulator sizes of 2 or 3 are recommended.
+
+</br>
+
+![betting with kelly](https://github.com/oranbramble/AccuProf/assets/56357864/75f28d2d-fb15-423a-a103-0a46cd5e8a28)
+
+</br>
+
+This graph shows the same but instead of £10 stakes per accumulator, I implemented a bankroll strategy known as the Kelly bankroll management strategy. For more info on this, see [here](https://www.thepunterspage.com/kelly-criterion-betting/). It uses the fact that odds set by bookies are a relatively accurate measure of probability of event occuring. Using this bankroll management strategy, less profits were realised, but the profit was much more consitent and all sizes of accumulator actually profitied. This shows that this method of accumulator betting could potentially provide profti with little to no risk of a loss.
+
+## Conclusion
+
+This project of mine is the one I am most proud of, mainky because it has the biggest implications in real-life. Although it is untested, the evidence is there to suggest accumulator betting, when done right, can be incredibly profitable and consistent. This goes against litrature which would suggest accumulator betting is risky and not as profitable as single-way betting, but my research suggests this may be untrue. Either way, it proves this area is criminially underesearced and definitely warrants further investigation.
