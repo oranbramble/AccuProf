@@ -2,6 +2,13 @@
 
 This project was undertaken to assess the profitability of the UK football betting market using the accumulator betting method. Unfortunately, due to my university's regulations, I cannot publish the code here, although I can explain the method and the findings briefly.
 
+---
+## Contents
+- **[Method](#Description)**
+- **[Results](#Results)**
+- **[Conclusion](#Conclusion)**
+---
+
 ## Method
 
 Accumulator betting is the betting format on which you combine single-way bets into one large bet which pays off only if all the component bets also succeed. If one fails, the whole accumulator fails. This was investigated due to the severe lack of research into accumulator betting, and so I thought it had potential to provide large profits.
